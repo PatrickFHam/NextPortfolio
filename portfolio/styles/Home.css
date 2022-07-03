@@ -1,0 +1,24 @@
+#patrickheadshot {
+  height: 200px;
+  width: 200px;
+}
+
+#row-with-stuff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#headshotcard {
+  min-width: 200px;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+#greeting {
+  min-width: 200px;
+  max-width: 500px;
+  flex-grow: 1;
+  margin-left: 15px;
+}
