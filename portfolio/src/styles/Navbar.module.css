@@ -1,0 +1,42 @@
+/* .navbar {
+  background: #6a1b9a;
+  height: 60px;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+} */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  color: inherit;
+}
+.nav-link:visited {
+  color: inherit;
+}
+.nav-link:hover {
+  color: #0b3797;
+}
+
+.active {
+  color:#6a1b9a;
+  text-decoration: underline;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 450px) {
+
+  .nav {
+      flex-direction: column;
+  }
+}
