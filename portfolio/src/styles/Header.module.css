@@ -1,17 +1,21 @@
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: #002374;
   /* background-image: url('../components/pages/images/legos.jpg'); */
   /* background-size:cover ; */
   /* background-position: center; */
   /* height: 25vh; */
+
+}
+
+.logo-box {
+  display: flex;
 }
 
 .header h1 {
-  margin: 0;
-  padding-top: 25px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
+
 }
 
 .textbox {
@@ -19,4 +23,3 @@
   flex-direction: column;
   justify-items: center;
 }
-
