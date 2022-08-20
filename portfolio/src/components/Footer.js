@@ -5,8 +5,8 @@ import styles from '../styles/Footer.module.css';
 export default function Footer() {
 
   return (
-    <Container>
+    <footer className={styles.footer}>
         <Text h6>© 2022, Hambone Pages</Text>
-    </Container>
+    </footer>
   );
 };
