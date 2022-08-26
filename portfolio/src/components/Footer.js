@@ -5,7 +5,7 @@ import styles from '../styles/Footer.module.css';
 export default function Footer() {
 
   return (
-    <footer className={styles.footer}>
+    <footer>
         <Text h6>© 2022, Hambone Pages</Text>
     </footer>
   );

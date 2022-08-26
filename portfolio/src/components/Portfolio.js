@@ -6,7 +6,7 @@ import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import styles from  '../styles/Portfolio.module.css';
 
-import projects from '../utils/data';
+import projects from '../utils/data/projects';
 
 export default function Portfolio() {
   return (

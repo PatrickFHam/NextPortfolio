@@ -1,27 +1,3 @@
-// NAVIGATION LINKS
-export const navLinks = [
-  { name: "Home", 
-   path: "/" 
-  },
-  {
-    name: "About Me",
-    path: "/aboutme",
-  },
-  {
-    name: "Portfolio",
-    path: "/portfolio",
-  },
-  {
-    name: "Contact",
-    path: "/contact",
-  },
-  {
-    name: "Resume",
-    path: "/resume",
-  },
-];
-
-
 // PORTFOLIO PROJECTS
 const projects = [
   {

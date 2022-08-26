@@ -7,11 +7,37 @@
 .nav-link {
   color: inherit;
 }
+/* 
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+
+.nav-label {
+  font-size:12px;
+  text-transform: capitalize;
+} */
+
+.nav-link:hover {
+  color: green;
+  background-color: #6a1b9a;
+
+}
+
+.nav-link-active {
+  color: red;
+  background-color: aqua;
+}
+
 .nav-link:visited {
   color: inherit;
-}
-.nav-link:hover {
-  color: #0b3797;
 }
 
 .active {

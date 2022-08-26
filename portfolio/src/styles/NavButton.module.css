@@ -1,0 +1,25 @@
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+
+.nav-label {
+  font-size:12px;
+  text-transform: capitalize;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 450px) {
+
+  .nav {
+      flex-direction: column;
+  }
+}
