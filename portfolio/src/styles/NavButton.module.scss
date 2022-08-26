@@ -16,17 +16,12 @@
     font-size: 12px;
     text-transform: capitalize;
   }
+  :hover {
+    color: blue;
+  }
 }
 
 .active {
-  color: blue;
-  font-size: 24px;
-}
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 450px) {
-
-  .NavButton {
-      flex-direction: column;
-  }
+  color: rgb(0, 255, 47);
+  font-size: 36px;
 }
