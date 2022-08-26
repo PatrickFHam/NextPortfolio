@@ -1,5 +1,9 @@
 import Layout from "../components/Layout";
+import ResumeComponent from "../components/Resume";
 
-const Resume = props => <Layout>{`RESUME page will go here`}</Layout>;
+const Resume = props => 
+  <Layout>
+    <ResumeComponent />
+  </Layout>;
 
 export default Resume;

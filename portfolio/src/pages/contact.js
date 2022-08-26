@@ -1,5 +1,11 @@
-import Layout from "../components/Layout";
+import React from 'react';
 
-const Contact = props => <Layout>{`CONTACT page will go here`}</Layout>;
+import Layout from "../components/Layout";
+import ContactComponent from "../components/Contact";
+
+const Contact = props => 
+  <Layout>
+    <ContactComponent />
+  </Layout>;
 
 export default Contact;

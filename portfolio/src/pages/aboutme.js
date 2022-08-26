@@ -1,5 +1,11 @@
-import Layout from "../components/Layout";
+import React from 'react';
 
-const AboutMe = props => <Layout>{`ABOUT ME page will go here`}</Layout>;
+import Layout from "../components/Layout";
+import AboutMeComponent from "../components/AboutMe";
+
+const AboutMe = props => 
+  <Layout>
+    <AboutMeComponent />
+  </Layout>;
 
 export default AboutMe;

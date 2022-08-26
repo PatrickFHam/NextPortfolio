@@ -1,5 +1,9 @@
 import Layout from "../components/Layout";
+import PortfolioComponent from "../components/Portfolio";
 
-const Portfolio = props => <Layout>{`PORTFOLIO page will go here`}</Layout>;
+const Portfolio = props => 
+  <Layout>
+    <PortfolioComponent />
+  </Layout>;
 
 export default Portfolio;
