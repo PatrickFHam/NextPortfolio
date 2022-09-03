@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #002374;
+}
+
+.logo-box {
+  display: flex;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
