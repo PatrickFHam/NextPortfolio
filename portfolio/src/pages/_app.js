@@ -6,6 +6,8 @@ config.autoAddCss = false; // Tell Font Awesome to skip adding the CSS automatic
 import { createTheme, NextUIProvider } from "@nextui-org/react"
 import { ThemeProvider as NextThemesProvider } from 'next-themes';
 
+import Layout from "../components/Layout";
+
 // 2. Call `createTheme` and pass your custom values
 const lightTheme = createTheme({
   type: 'light',
